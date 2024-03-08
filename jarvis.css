@@ -1,0 +1,66 @@
+body {
+    font-family: Consolas, monospace;
+    background-color: #EEEEEE;
+    margin: 20px;
+    color: white;
+}
+h1 {
+    text-align: center;
+    color: #566573;
+    text-shadow: 0px 0px 10px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    padding: 2px;
+    background: #455A64;
+}
+::-webkit-scrollbar-track {
+    margin: 2px;
+}
+::-webkit-scrollbar-thumb {
+    background: #85929E;
+    border-radius: 10px;
+}
+.main {
+    margin-bottom: 40px;
+    width: 96%;
+    height: auto;
+    background: #455A64;
+    border-radius: 10px;
+    padding: 2%;
+}
+.code {
+    resize: none;
+    overflow: auto;
+    min-height: 650px;
+    border: 1px solid #ddb6ff;
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    padding: 5%;
+    background: #455A64;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: 40px;
+}
+.copy-button {
+    position: absolute;
+    right: 150px;
+    color: #cddae7;
+    text-shadow: #cddae7 0px 0px 10px;
+    font: bold;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    scale: 1.5;
+    transition: all 2s;
+}
+.b2 {
+    right: 50px;
+}
+.heading {
+    font-size: 30px;
+    color: #cddae7;
+    text-shadow: #cddae7 0px 0px 10px;
+}
